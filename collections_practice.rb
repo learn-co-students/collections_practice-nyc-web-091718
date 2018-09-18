@@ -16,12 +16,6 @@ end
 
 
 def swap_elements(array)
-#   binding.pry
- # new_array = array   Apparently, this wouldn't work. Because the following two lines will alter array!!!!!  But the slice method can do it: new_array = array.slice(0..-1)
- # new_array[1] = array[2]
- # new_array[2] = array[1]
- # new_array
-
   final_array = []
   final_array << array[0]
   final_array << array[2]
